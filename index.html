@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Agencia de Diseño</title>
+</head>
+<body>
+    <nav nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #2c3e50;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white">Atelier</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <!-- Usamos d-flex y flex-column para las versiones móviles, y flex-xl-row para pantallas grandes (asignamos la maxima de 1920x1980 px) -->
+        <section id="inicio" class="mb-5 d-flex flex-column flex-xl-row align-items-center">
+            <img src="https://i.postimg.cc/pT0gxxwq/Mesa-de-trabajo-1.png" alt="Banner Principal" class="img-fluid w-50">
+            <div>
+                <h1>Somos Atelier</h1>
+                <p>Descubra el lugar donde la creatividad se une con la tecnología para transformar sus ideas en realidades impresionantes.</p>
+            </div>
+        </section>
+
+        <!-- homologamos la distribucion para el resto de los divs -->
+        <section id="servicios" class="mb-5 d-flex flex-column flex-xl-row align-items-center">
+            <img src="https://blog.uvm.mx/hubfs/dise%C3%B1o-digital-animaciones.jpg" alt="Nuestros Servicios" class="img-fluid w-50">
+            <div>
+                <h2>Nuestros Servicios</h2>
+                <p>En Atelier, cada cliente es una nueva historia de éxito en potencia. Ofrecemos una gama extensa de servicios diseñados para cubrir todas tus necesidades creativas y técnicas. Desde la creación de identidades de marca, desarrollo de sitios web, marketing digital, SEO y comercio electrónico, lo que nos permite proporcionar una solución integral que eleva tu presencia en el mercado.</p>
+            </div>
+        </section>
+
+        <section id="clientes" class="mb-5 d-flex flex-column flex-xl-row align-items-center">
+            <img src="https://images.squarespace-cdn.com/content/v1/5a9d1dbc31d4dffb8b3f9a35/1543403367595-T1W0VSACNXK2ISINV24Z/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKczo5Zn4xktlpMsMj-QlHXeMfNK6GwvtVkYEWiR8XAPyD3GfLCe_DXOSC_YcAacWL_/Popular-Brands-Names_Handle-Branding.jpg" alt="Nuestro Portafolio" class="img-fluid w-50">
+            <div>
+                <h2>Nuestros clientes</h2>
+                <p>En Atelier, estamos orgullosos de haber colaborado con una amplia gama de clientes, desde startups innovadoras hasta grandes corporaciones multinacionales. Cada cliente es único, y nos esforzamos por entender profundamente sus necesidades y objetivos. Nuestra experiencia abarca diversos sectores, incluyendo tecnología, moda, educación y salud, lo que nos permite proporcionar soluciones creativas y técnicas adaptadas a cada industria.</p>
+        <p>Nuestro compromiso es impulsar el éxito de nuestros clientes a través de estrategias personalizadas que resaltan su visión y objetivos comerciales. Aquí, no solo hablamos de nuestros servicios, sino que demostramos cómo estos se han traducido en éxito tangible para nuestros clientes. Testimonios y estudios de caso detallados subrayan cómo hemos ayudado a transformar sus ideas en realidades impactantes y duraderas.</p>
+            </div>
+        </section>
+
+        <section id="portafolio" class="mb-5 d-flex flex-column flex-xl-row align-items-center">
+            <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="Nuestro Portafolio" class="img-fluid w-50">
+            <div>
+                <h2>Portafolio</h2>
+                <p>Déjate inspirar por nuestro portafolio, que es un testimonio de nuestra habilidad para manejar una diversidad de estilos y desafíos. Cada proyecto aquí presentado muestra nuestro compromiso con la creatividad y la excelencia técnica. Desde campañas publicitarias que capturan la imaginación hasta desarrollos web que establecen nuevos estándares en la industria, nuestro trabajo habla por sí mismo. Estamos orgullosos de cada colaboración y proyecto que hemos emprendido y esperamos agregar tu historia a esta creciente galería de innovaciones.</p>
+            </div>
+        </section>
+
+        <!-- Creamos un formulario para suscribir a gente interesada-->
+        <section class="mb-5 d-flex flex-column flex-xl-row align-items-center">
+            <form class="d-flex flex-column align-items-center w-50">
+                <h2>Suscríbete</h2>
+                <h4>Recibe las últimas novedades respecto a nosotros</h4>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <!-- Creamos un footer con información de contacto-->
+    <footer class="text-center p-4 bg-dark text-light" style="background-color: #2c3e50;">
+        <p>Contacto: contacto@atelieragencia.com</p>
+        <p>Creado por Vicente Silva</p>
+        <p>Pasaje Dalcahue 8961, Villa Santa Claudia, La Granja, Santiago, CHILE</p>
+    </footer>
+
+</body>
+</html>
